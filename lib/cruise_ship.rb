@@ -8,4 +8,8 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  passengers.each do |key, value|
+    if(key == "suite_a")
+      if(value[0] == "A" || value[0] == "a")
+        return value
 end
