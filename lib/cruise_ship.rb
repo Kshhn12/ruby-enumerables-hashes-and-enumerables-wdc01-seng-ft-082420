@@ -11,4 +11,6 @@ def select_winner(passengers)
   passengers.each do |suite, name|
     if(key == :suite_a && name.start_with?("A")
         return value
+      end
+    end
 end
