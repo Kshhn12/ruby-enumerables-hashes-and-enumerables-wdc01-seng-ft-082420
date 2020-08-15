@@ -12,4 +12,5 @@ def select_winner(passengers)
     if(key == "suite_a")
       if(value[0] == "A" || value[0] == "a")
         return value
+  end
 end
